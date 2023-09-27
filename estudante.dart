@@ -12,7 +12,7 @@ class Estudante{
   Estudante victoria = Estudante("Victoria", "Farmacia", 2020);
   print('Nome: ${victoria.nome}, Curso: ${victoria.curso}, Ano de Ingresso: ${victoria.anoDeIngresso}' );
 
-  Estudante fernanda = Estudante.novoIngresso("Maria", "arquitetura");
+  Estudante fernanda = Estudante.novoIngresso("Fernanda", "Arquitetura");
   print('Nome: ${fernanda.nome}, Curso: ${fernanda.curso}, Ano de Ingresso: ${fernanda.anoDeIngresso}' );
 
 
